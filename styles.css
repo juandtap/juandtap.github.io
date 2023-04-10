@@ -28,7 +28,12 @@ nav a {
   border: solid 1px #aaa;
   text-align: center;
   text-decoration: none;
-  color: #555;
+  color: blue;
+}
+
+.links{
+  color: blue;
+  background-color: aquamarine;
 }
 
 nav a[aria-current='page'] {
@@ -81,4 +86,19 @@ video {
   100% {
     transform: rotate(360deg);
   }
+}
+
+#link2 {
+  color: red;
+}
+
+main div{
+ 
+  background-color: #aaa;
+ 
+  
+}
+
+main div a {
+  color: yellow;
 }
