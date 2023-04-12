@@ -14,11 +14,19 @@
     border-radius: 50px;
     background-color: white;
     position: relative;
-    animation: mover-nube 10s linear infinite;
+    animation: mover-nube 8s linear infinite;
+  }
+  .nube2{
+    width: 80px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    position: relative;
+    animation: mover-nube 9s linear infinite;
   }
 
   body{
-    background-color: cyan;
+    background-color: blue;
   }
   
   @keyframes mover-nube {
@@ -26,6 +34,6 @@
       left: -150px;
     }
     100% {
-      left: calc(100vw + 150px);
+      left: calc(80vw + 150px);
     }
   }
