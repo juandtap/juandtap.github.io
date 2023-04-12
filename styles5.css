@@ -1,0 +1,18 @@
+
+.nube {
+    width: 150px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: gray;
+    position: relative;
+    animation: mover-nube 10s linear infinite;
+  }
+  
+  @keyframes mover-nube {
+    0% {
+      left: -150px;
+    }
+    100% {
+      left: calc(100vw + 150px);
+    }
+  }
