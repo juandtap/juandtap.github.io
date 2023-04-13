@@ -5,11 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
+   
   </head>
   <body>
     <header>
-      <h1 id="titulo1">Mi sitio web</h1>
+      <h1 id="titulo1" >Mi sitio web</h1>
      
       <nav>
         <ul id="menu" >
@@ -35,11 +35,22 @@
       </article>
       <aside>
         <h3>Publicidad</h3>
+          <button onclick='addLink()'>Agregar Link</button>
+        <ul id="listaenlaces">
+          <li><a href="#">Enlace 1</a></li>
+          <li><a href="#">Enlace 2</a></li>
+          <li><a href="#">Enlace 3</a></li>
+          <li><a href="#">Enlace 4</a></li>
+          <li><a href="#">Enlace 5</a></li>
+          
+        </ul>
+
         <p>¡No te pierdas nuestra oferta especial!</p>
       </aside>
     </section>
     <footer>
       <p>Derechos reservados &copy; 2023 Mi sitio web</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
